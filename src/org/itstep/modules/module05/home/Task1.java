@@ -21,10 +21,10 @@ public class Task1 {
         return arr;
     }
     public static void main(String[] args) {
-        final int ROWS = 4;
-        final int COLUMNS = 4;
+        final int ROWS = 7;
+        final int COLUMNS = 7;
 
-        final int RANDOM_MIN = -99;
+        final int RANDOM_MIN = 10;
         final int RANDOM_MAX = 99;
         int rowMax, rowMin;
         final Random r = new Random();
