@@ -1,7 +1,7 @@
 package org.itstep.modules.module05.home;
 
 /**
- * Created by Vitaliy Timchenko on 27.03.16 20:17.
+ * Created by Vitaliy Timchenko on 27.03.16 20:17
  * 1 1 1 1 1
  * 0 1 1 1 0
  * 0 0 1 0 0
