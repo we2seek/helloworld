@@ -6,4 +6,5 @@ package org.itstep.modules.module06.classwork;
  */
 public class Task3 {
 
+
 }
