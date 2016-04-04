@@ -52,8 +52,10 @@ public class Task1 {
     static void showXY(Coords<?> c) {
         System.out.println("X Y Coordinates:");
         for (int i = 0; i < c.coords.length; i++)
-            System.out.println(c.coords[i].x + " " +
-                    c.coords[i].y);
+            // Закомментил, т.к. IDE подсвечивает ошибку, хотя код работает и можно раскомментить
+            /*
+            System.out.println(c.coords[i].x + " " + c.coords[i].y);
+            */
         System.out.println();
     }
 

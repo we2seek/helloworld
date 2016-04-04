@@ -1,4 +1,4 @@
-package org.itstep.modules.module06.classwork.homework;
+package org.itstep.modules.module06.homework;
 
 import java.util.Arrays;
 import java.util.Random;

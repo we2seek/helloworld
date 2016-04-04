@@ -11,13 +11,11 @@ public class Task2 {
         try {
             d = 0;
             a = 42 / d;
-        } catch (RuntimeException e) {
-            System.out.println("Division by zero!");
         } catch (ArithmeticException e) {
+            System.out.println("Division by zero!");
+        } catch (RuntimeException e) {
             System.out.println("Runtime exception");
         }
-
-        Netw
 
         System.out.println(a);
 
