@@ -10,7 +10,7 @@ package org.itstep.modules.module05.home;
  */
 public class Task3 {
     public static void main(String[] args) {
-        final int ROWS = 5;
+        final int ROWS = 11;
         final int COLS = 5;
         byte[][] arr = new byte[ROWS][COLS];
 
@@ -65,7 +65,7 @@ public class Task3 {
                 // 0 0 1 0 0
                 // 0 0 0 0 0
                 // 0 0 0 0 0
-                if (j < COLS - i && j >= i) {
+                if (j < arr[i].length - i && j >= i) {
                     arr[i][j] = 1;
                 }
             }

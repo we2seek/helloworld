@@ -1,9 +1,9 @@
-package org.itstep.modules.module08.classwork;
+package org.itstep.modules.module08.classwork.exceptions;
 
 /**
  * Created by timchenko on 04.04.2016.
  */
-public class Task2 {
+public class Task1 {
 
 
     public static void main(String[] args) throws IllegalAccessException {

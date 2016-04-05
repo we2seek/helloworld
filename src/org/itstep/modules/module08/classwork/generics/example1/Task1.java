@@ -1,4 +1,4 @@
-package org.itstep.modules.module08.classwork;
+package org.itstep.modules.module08.classwork.generics.example1;
 
 /*
 Java 2, v5.0 (Tiger) New Features
