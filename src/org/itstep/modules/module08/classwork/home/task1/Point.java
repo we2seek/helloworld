@@ -1,15 +1,31 @@
 package org.itstep.modules.module08.classwork.home.task1;
 
-class Point<T extends Number> {
+public class Point<T extends Number> {
     private T coordX;
     private T coordY;
 
-    Point(T coordX, T coordY) {
+    public Point(T coordX, T coordY) {
         this.coordX = coordX;
         this.coordY = coordY;
     }
 
-    double distanceTo(Point<? extends Number> anotherPoint) {
+    public T getCoordX() {
+        return coordX;
+    }
+
+    public void setCoordX(T coordX) {
+        this.coordX = coordX;
+    }
+
+    public T getCoordY() {
+        return coordY;
+    }
+
+    public void setCoordY(T coordY) {
+        this.coordY = coordY;
+    }
+
+    public double distanceTo(Point<? extends Number> anotherPoint) {
         double dx = this.coordX.doubleValue() - anotherPoint.coordX.doubleValue();
         double dy = this.coordY.doubleValue() - anotherPoint.coordY.doubleValue();
         return Math.sqrt(dx * dx + dy * dy);

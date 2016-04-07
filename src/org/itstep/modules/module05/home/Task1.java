@@ -29,7 +29,7 @@ public class Task1 {
         int rowMax, rowMin;
         final Random r = new Random();
 
-        // Main array of random numbers
+        // Task1 array of random numbers
         int[][] arr = new int[ROWS][];
         // Additional array with max and min value for each row
         int[] minMax = new int[ROWS * 2];
