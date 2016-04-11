@@ -1,6 +1,6 @@
 package org.itstep.modules.module10.examples;
 
-public class Employee {
+public class Employee implements Comparable<Employee> {
     private String name;
 
     public Employee(String name) {
@@ -20,4 +20,9 @@ public class Employee {
         return "Employee [" + name + ']';
     }
 
+
+    @Override
+    public int compareTo(Employee o) {
+        return this.getName().compareTo(o.getName());
+    }
 }
