@@ -21,6 +21,7 @@ public class Company implements Iterable<Employee> {
         return employees.length;
     }
 
+
     @Override
     public Iterator<Employee> iterator() {
         return new ArrayIterator<Employee>(employees);

@@ -49,6 +49,23 @@ class Triangle {
         return area;
     }
 
+    /**
+     * Вычисляет площадь по трем заданным точкам.
+     */
+    public <T> double area(Point<? extends Number> a, Point<? extends Number> b, Point<? extends Number> c){
+        double aX = a.getCoordX().doubleValue();
+        double aY = a.getCoordY().doubleValue();
+        double bX = b.getCoordX().doubleValue();
+        double bY = b.getCoordY().doubleValue();
+        double cX = c.getCoordX().doubleValue();
+        double cY = c.getCoordY().doubleValue();
+
+        double area = Math.abs(aX*(bY-cY) + bX*(cY-aY) + cX*(aY - bY));
+        area /= 2.0;
+
+        return area;
+    }
+
     @Override
     public String toString() {
         String newLine = System.getProperty("line.separator");

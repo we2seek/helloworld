@@ -10,6 +10,7 @@ public class ObjectHolderDemo {
         // ... Some acts
 
         String str = (String) objectHolder.getData();
+//        int str = (int) objectHolder.getData();
         System.out.println(str);
 
         objectHolder.setData(new int [] {15, 10, -2012});

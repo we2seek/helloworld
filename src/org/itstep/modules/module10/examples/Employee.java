@@ -1,6 +1,6 @@
 package org.itstep.modules.module10.examples;
 
-public class Employee implements Comparable<Employee> {
+public class Employee /*implements Comparable<Employee>*/ {
     private String name;
 
     public Employee(String name) {
@@ -21,8 +21,8 @@ public class Employee implements Comparable<Employee> {
     }
 
 
-    @Override
+    /*@Override
     public int compareTo(Employee o) {
         return this.getName().compareTo(o.getName());
-    }
+    }*/
 }

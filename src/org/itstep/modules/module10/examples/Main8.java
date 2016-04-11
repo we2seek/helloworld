@@ -2,6 +2,7 @@ package org.itstep.modules.module10.examples;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeSet;
 
 public class Main8 {
     public static void main(String[] args) {
@@ -15,5 +16,9 @@ public class Main8 {
 
         System.out.println(map.size() + " distinct words:");
         System.out.println(map);
+
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+//            TreeSet<>
+        }
     }
 }

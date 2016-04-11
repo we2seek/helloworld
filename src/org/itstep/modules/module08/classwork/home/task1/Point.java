@@ -9,21 +9,21 @@ public class Point<T extends Number> {
         this.coordY = coordY;
     }
 
-    public T getCoordX() {
-        return coordX;
-    }
-
-    public void setCoordX(T coordX) {
-        this.coordX = coordX;
-    }
-
-    public T getCoordY() {
-        return coordY;
-    }
-
-    public void setCoordY(T coordY) {
-        this.coordY = coordY;
-    }
+//    public T getCoordX() {
+//        return coordX;
+//    }
+//
+//    public void setCoordX(T coordX) {
+//        this.coordX = coordX;
+//    }
+//
+//    public T getCoordY() {
+//        return coordY;
+//    }
+//
+//    public void setCoordY(T coordY) {
+//        this.coordY = coordY;
+//    }
 
     public double distanceTo(Point<? extends Number> anotherPoint) {
         double dx = this.coordX.doubleValue() - anotherPoint.coordX.doubleValue();
@@ -41,5 +41,21 @@ public class Point<T extends Number> {
         sb.append(')');
 
         return sb.toString();
+    }
+
+    public T getCoordX() {
+        return coordX;
+    }
+
+    public void setCoordX(T coordX) {
+        this.coordX = coordX;
+    }
+
+    public T getCoordY() {
+        return coordY;
+    }
+
+    public void setCoordY(T coordY) {
+        this.coordY = coordY;
     }
 }
