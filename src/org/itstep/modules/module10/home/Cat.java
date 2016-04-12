@@ -1,6 +1,6 @@
 package org.itstep.modules.module10.home;
 
-public class Cat {
+public class Cat implements Comparable<Cat> {
     private String name;
     private double mass;
 
@@ -31,8 +31,13 @@ public class Cat {
         sb.append("Cat [");
         sb.append(getName());
         sb.append(", ");
-        sb.append(getMass());
-        sb.append("]");
+        sb.append(String.format("%.4f", getMass()));
+        sb.append(" кг]");
         return sb.toString();
+    }
+
+    @Override
+    public int compareTo(Cat that) {
+        return Double.compare(this.getMass(), that.getMass());
     }
 }
