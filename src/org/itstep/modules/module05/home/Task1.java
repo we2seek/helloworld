@@ -11,15 +11,6 @@ import java.util.Random;
  */
 public class Task1 {
 
-    public int [][] generateArray(final int rows, final int cols){
-        int arr[][] = new int[rows][];
-
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = new int[cols];
-        }
-
-        return arr;
-    }
     public static void main(String[] args) {
         final int ROWS = 7;
         final int COLUMNS = 7;
@@ -29,7 +20,7 @@ public class Task1 {
         int rowMax, rowMin;
         final Random r = new Random();
 
-        // Task1 array of random numbers
+        // MapDemo array of random numbers
         int[][] arr = new int[ROWS][];
         // Additional array with max and min value for each row
         int[] minMax = new int[ROWS * 2];
@@ -65,6 +56,16 @@ public class Task1 {
             System.out.printf("Строка №%d: MAX = %3d, MIN = %3d\n", i+1, minMax[i + ROWS], minMax[i]);
         }
 
+    }
+
+    public int[][] generateArray(final int rows, final int cols) {
+        int arr[][] = new int[rows][];
+
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = new int[cols];
+        }
+
+        return arr;
     }
 }
 // 0  1  2  3  4  5
