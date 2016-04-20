@@ -1,6 +1,8 @@
 package org.itstep.modules.module10.examples;
 
-import java.util.*;
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Main2 {
 
@@ -43,7 +45,7 @@ public class Main2 {
         words.add("Four");
         words.add("Five");
         words.add("Six");
-        words.forEach(System.out::println);
+//        words.forEach(System.out::println);
         System.out.println();
 
 //        words.subList(1, 3).clear();
