@@ -1,4 +1,6 @@
-package org.itstep.modules.module10.home;
+package org.itstep.modules.module11.classwork;
+
+import org.itstep.modules.module10.home.SetOfCats;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -11,7 +13,7 @@ import java.util.Scanner;
 /**
  * Created by well on 13.04.16.
  */
-public class MyUtils {
+public class FileUtils {
     /**
      * Получить путь к текущему пакету, чтобы файл сохранялся не в корне проекта.
      *

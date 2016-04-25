@@ -1,9 +1,5 @@
 package org.itstep.modules.module10.home;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.*;
 
 /**
@@ -20,7 +16,7 @@ public class SetOfCats {
         // Имена для котанов
         ArrayList<String> names = MyUtils.readNamesFromFile("cat_names.txt");
         // Количество котов
-        final int COUNT = 10000;
+        final int COUNT = 1000000;
         double sumMass = 0.0;
 
         Random random = new Random();
